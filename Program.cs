@@ -33,13 +33,13 @@ namespace prj0000 {
          }
       }
       static void IsInvalid() {
-         Console.ForegroundColor = ConsoleColor.DarkYellow;
+         Console.ForegroundColor = ConsoleColor.Red;
          Console.WriteLine("\nENTRADA INVÁLIDA! Tente novamente.");
          Console.ResetColor();
       }
       static void Result(double a, double r) {
          Console.Write($"\nA área do círculo de raio ");
-         Console.ForegroundColor = ConsoleColor.Red;
+         Console.ForegroundColor = ConsoleColor.DarkYellow;
          Console.Write($"{r}m");
          Console.ResetColor();
          Console.Write($" é igual a ");
